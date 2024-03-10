@@ -1,10 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { TbBrandReact, TbBrandTypescript, TbBrandNodejs } from "react-icons/tb";
+import gymComp from "@/public/gymComp.png";
+import hearme from "@/public/hearme.png";
+import pizza from "@/public/pizza.png";
 
 export const links = [
   {
@@ -35,73 +33,72 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Front-end Developer (freelance)",
+    location: "Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "For several months I served as a contractor, successfully delivering multiple projects and collaborating with professionals across the United States and Europe. I adeptly utilized a robust tech stack encompassing React, Next.js, Typescript, Tailwind, and Figma in the execution of these assignments.",
+    icon: React.createElement(TbBrandTypescript),
+    date: "08/2023 - 03/2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full-stack Developer (HearMe & Emplomind UK)",
+    location: "Warsaw, Poland",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "As a developer selected by the CTO, my initial focus was on re-branding company's core application in line with the designers' chosen UI/UX design. Subsequently, I shifted to full-stack responsibilities, where I developed new services and integrated them into the existing solution. My role involved independent problem-solving, tool selection, and implementation. Efficiently managing time, I balanced code development, database monitoring, system testing, yet creating both technical documentation and client-focused video announcements.",
+    icon: React.createElement(TbBrandNodejs),
+    date: "12/2021 - 07/2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front-end Developer (Apprenticeship)",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Among many other activities, my role was based on building responsive front-end interface delivered by our UI/UX designer, helping with team management, technological stack optimization, JIRA issue tracking and administrating project's repository on GitHub.",
+    icon: React.createElement(TbBrandReact),
+    date: "04/2021 - 11/2021",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "HearMe PWA",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "App for anonymous therapy sessions. It has features including video calls, chats, webinars and much more. I took a part building it as a full-stack developer.",
+    tags: ["React", "Typescript", "Node.js", "PostgreSQL", "GraphQL"],
+    imageUrl: hearme,
   },
   {
-    title: "rmtDev",
+    title: "Pizza Heaven",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Layout of a pizza restaurant website with a menu and ordering system.",
+    tags: ["React", "JavaScript", "Styled Components", "CSS"],
+    imageUrl: pizza,
   },
   {
-    title: "Word Analytics",
+    title: "Exercise Compendium",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Innovative application designed to empower users in searching for exercises across all muscle groups, providing comprehensive guidance.",
+    tags: ["React", "JavaScript", "CSS", "Material UI", "REST API"],
+    imageUrl: gymComp,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Semantic HTML",
+  "CSS (Sass/Tailwind/BEM)",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React (with various libraries)",
   "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "Design (Figma/Canva)",
+  "Node.js (Express)",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "Version control (GIT/GitHub Actions)",
+  "NoSQL databases (MongoDB)",
+  "SQL databases (PostgreSQL)",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Working with REST APIs",
+  "Containerization (Docker)",
+  "Software architecture (UML)",
+  "Atlassian (Jira/Confluence)",
+  "Agile management (Scrum/Kanban)",
 ] as const;

@@ -24,15 +24,17 @@ export default function ContactFormEmail({
   return (
     <Html>
       <Head />
-      <Preview>New message from your portfolio site</Preview>
+      <Preview>Who's that?</Preview>
       <Tailwind>
         <Body className="bg-gray-100 text-black">
           <Container>
             <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
-              <Heading className="leading-tight">Someone says:</Heading>
-              <Text>{message}</Text>
+              <Heading className="leading-tight">Someone says 💁🏻‍♀️</Heading>
+              <Text className="text-lg">{message}</Text>
               <Hr />
-              <Text>Sender's @ is: {senderEmail}</Text>
+              <Text className="text-md font-bold">
+                Sender's @ is: {senderEmail}
+              </Text>
             </Section>
           </Container>
         </Body>

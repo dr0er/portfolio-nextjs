@@ -10,6 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import portrait from "@/public/zKluskim.JPEG";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -68,7 +69,19 @@ export default function Intro() {
         <span className="font-bold">3 years</span> of experience. <br /> I take
         pleasure in building outstanding websites and apps that simply perform.
         <br />
-        My focus lies in honing React (Next.js) skills.
+        My focus lies in honing {""}
+        <span className="text-red-500 font-bold">
+          <Typewriter
+            words={["React", "Next.js", "Node.js", "JavaScript", "Typescript"]}
+            loop={false}
+            cursor
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1500}
+          />
+        </span>
+        skills.
       </motion.h1>
 
       <motion.div

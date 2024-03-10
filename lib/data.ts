@@ -2,10 +2,10 @@ import React from "react";
 import {
   TbBrandReact,
   TbBrandTypescript,
-  TbBrandNodejs,
   TbDatabaseHeart,
   TbCpu,
 } from "react-icons/tb";
+import { IoLogoNodejs } from "react-icons/io5";
 import gymComp from "@/public/gymComp.png";
 import hearme from "@/public/hearme.png";
 import pizza from "@/public/pizza.png";
@@ -55,7 +55,7 @@ export const experiencesData = [
     location: "Warsaw, Poland",
     description:
       "As a developer chosen by the CTO, my initial focus was on re-branding company's core application. Subsequently, I shifted to full-stack responsibilities, where I developed new services and integrated them into the existing solution. My role involved independent problem-solving, tool selection, and implementation. Efficiently managing time, I balanced code development, database monitoring, system testing, yet creating both technical documentation and client-focused video announcements.",
-    icon: React.createElement(TbBrandNodejs),
+    icon: React.createElement(IoLogoNodejs),
     date: "12/2021 - 07/2023",
   },
   {

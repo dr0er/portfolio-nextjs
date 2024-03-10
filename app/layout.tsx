@@ -6,9 +6,16 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
+<Head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16" />
+  <link rel="manifest" href="/site.webmanifest" />
+</Head>;
 export const metadata = {
   title: "Ernest Drobny | Personal Portfolio",
   description: "I'm a web developer with 3 years of experience.",

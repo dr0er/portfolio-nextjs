@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Front-end Developer (freelance)",
     location: "Remote",
     description:
-      "For several months I served as a contractor, successfully delivering multiple projects and collaborating with professionals across the United States and Europe. I adeptly utilized a robust tech stack encompassing React, Next.js, Typescript, Tailwind, and Figma in the execution of these assignments.",
+      "For several months I served as a contractor, successfully delivering multiple projects and collaborating with professionals across the United States and Europe. I adeptly utilized a robust tech stack encompassing React, Next.js, Typescript, Tailwind CSS and Figma in the execution of these assignments.",
     icon: React.createElement(TbBrandTypescript),
     date: "08/2023 - 03/2024",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Full-stack Developer (HearMe & Emplomind UK)",
     location: "Warsaw, Poland",
     description:
-      "As a developer selected by the CTO, my initial focus was on re-branding company's core application. Subsequently, I shifted to full-stack responsibilities, where I developed new services and integrated them into the existing solution. My role involved independent problem-solving, tool selection, and implementation. Efficiently managing time, I balanced code development, database monitoring, system testing, yet creating both technical documentation and client-focused video announcements.",
+      "As a developer chosen by the CTO, my initial focus was on re-branding company's core application. Subsequently, I shifted to full-stack responsibilities, where I developed new services and integrated them into the existing solution. My role involved independent problem-solving, tool selection, and implementation. Efficiently managing time, I balanced code development, database monitoring, system testing, yet creating both technical documentation and client-focused video announcements.",
     icon: React.createElement(TbBrandNodejs),
     date: "12/2021 - 07/2023",
   },

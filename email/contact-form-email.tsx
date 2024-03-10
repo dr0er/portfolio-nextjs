@@ -29,12 +29,10 @@ export default function ContactFormEmail({
         <Body className="bg-gray-100 text-black">
           <Container>
             <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
-              <Heading className="leading-tight">
-                You received the following message from the contact form
-              </Heading>
+              <Heading className="leading-tight">Someone says:</Heading>
               <Text>{message}</Text>
               <Hr />
-              <Text>The sender's email is: {senderEmail}</Text>
+              <Text>Sender's @ is: {senderEmail}</Text>
             </Section>
           </Container>
         </Body>

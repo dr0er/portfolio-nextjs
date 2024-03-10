@@ -17,7 +17,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>about me</SectionHeading>
+      <SectionHeading>Welcome to my digital corner! 🙋🏻‍♂️🌍</SectionHeading>
       <article className="mb-3">
         <p>
           I'm a technology enthusiast with a{" "}
@@ -28,7 +28,7 @@ export default function About() {
         </p>
         <br />
         <p>
-          For past <b>three years</b>, I've been captivated by the art of
+          For recent years, I've been captivated by the art of
           <b> Front-End Development 🎨</b>, pouring my creativity into crafting
           seamless user experiences. However, my journey doesn't stop there as
           I'm eagerly gearing up to transition into a{" "}
@@ -52,13 +52,6 @@ export default function About() {
           my lovely Jack Russell <s>Terrier</s> Terror, named Kluseczka.
           Additionally, I find joy in the meticulous art of building, bringing{" "}
           <i>LEGO</i> creations to life.
-        </p>
-        <br />
-        <p>
-          Join me on this multifaceted journey as I navigate the realms of
-          technology, psychology, outdoor escapades, gaming, pet companionship,
-          and the intricate world of construction. Welcome to my corner of the
-          digital universe! 🙋🏻‍♂️🌍
         </p>
       </article>
     </motion.section>

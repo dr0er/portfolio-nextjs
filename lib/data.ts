@@ -1,5 +1,11 @@
 import React from "react";
-import { TbBrandReact, TbBrandTypescript, TbBrandNodejs } from "react-icons/tb";
+import {
+  TbBrandReact,
+  TbBrandTypescript,
+  TbBrandNodejs,
+  TbDatabaseHeart,
+  TbCpu,
+} from "react-icons/tb";
 import gymComp from "@/public/gymComp.png";
 import hearme from "@/public/hearme.png";
 import pizza from "@/public/pizza.png";
@@ -14,16 +20,20 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
     name: "Skills",
     hash: "#skills",
   },
   {
+    name: "Projects",
+    hash: "#projects",
+  },
+  {
     name: "Experience",
     hash: "#experience",
+  },
+  {
+    name: "College",
+    hash: "#education",
   },
   {
     name: "Contact",
@@ -44,7 +54,7 @@ export const experiencesData = [
     title: "Full-stack Developer (HearMe & Emplomind UK)",
     location: "Warsaw, Poland",
     description:
-      "As a developer selected by the CTO, my initial focus was on re-branding company's core application in line with the designers' chosen UI/UX design. Subsequently, I shifted to full-stack responsibilities, where I developed new services and integrated them into the existing solution. My role involved independent problem-solving, tool selection, and implementation. Efficiently managing time, I balanced code development, database monitoring, system testing, yet creating both technical documentation and client-focused video announcements.",
+      "As a developer selected by the CTO, my initial focus was on re-branding company's core application. Subsequently, I shifted to full-stack responsibilities, where I developed new services and integrated them into the existing solution. My role involved independent problem-solving, tool selection, and implementation. Efficiently managing time, I balanced code development, database monitoring, system testing, yet creating both technical documentation and client-focused video announcements.",
     icon: React.createElement(TbBrandNodejs),
     date: "12/2021 - 07/2023",
   },
@@ -65,6 +75,7 @@ export const projectsData = [
       "App for anonymous therapy sessions. It has features including video calls, chats, webinars and much more. I took a part building it as a full-stack developer.",
     tags: ["React", "Typescript", "Node.js", "PostgreSQL", "GraphQL"],
     imageUrl: hearme,
+    demoLink: "https://hearme.pl",
   },
   {
     title: "Pizza Heaven",
@@ -72,6 +83,7 @@ export const projectsData = [
       "Layout of a pizza restaurant website with a menu and ordering system.",
     tags: ["React", "JavaScript", "Styled Components", "CSS"],
     imageUrl: pizza,
+    demoLink: "https://dropizza.vercel.app/",
   },
   {
     title: "Exercise Compendium",
@@ -79,6 +91,7 @@ export const projectsData = [
       "Innovative application designed to empower users in searching for exercises across all muscle groups, providing comprehensive guidance.",
     tags: ["React", "JavaScript", "CSS", "Material UI", "REST API"],
     imageUrl: gymComp,
+    demoLink: "https://gym-exercise-compendium.vercel.app/",
   },
 ] as const;
 
@@ -101,4 +114,24 @@ export const skillsData = [
   "Software architecture (UML)",
   "Atlassian (Jira/Confluence)",
   "Agile management (Scrum/Kanban)",
+] as const;
+
+export const educationData = [
+  {
+    title:
+      "Master's Degree in Information Management, Architecture of IT Systems",
+    location: "Polish-Japanese Academy of Information Technology",
+    description:
+      "In pursuit of advancing my professional expertise, I have embarked on a journey of master's studies. During this period, I am dedicated to cultivating a multifaceted skill set encompassing project management, software testing, database design and implementation, and proficiency in conflict resolution. Additionally, I am immersing myself in the principles of Scrum culture to further enrich my knowledge and contribute effectively to complex project environments.",
+    icon: React.createElement(TbDatabaseHeart),
+    date: "10/2023 - PRESENT",
+  },
+  {
+    title: "Bachelor of Engineering in Computer Science, Software Engineering",
+    location: "Warsaw School of Information Technology",
+    description:
+      "I have earned a Bachelor of Engineering in Computer Science, specializing in Software Engineering. The extensive curriculum covered crucial subjects, including: data structures, algorithms, database management systems, web development, data science, architecture of computers, and operating systems. This educational experience has endowed me with a substantial knowledge, providing exposure to a diverse range of subjects, thereby contributing to a comprehensive understanding of principles in computer science.",
+    icon: React.createElement(TbCpu),
+    date: "12/2021 - 07/2023",
+  },
 ] as const;

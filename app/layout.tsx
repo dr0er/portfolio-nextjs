@@ -18,7 +18,8 @@ const inter = Inter({ subsets: ["latin"] });
 </Head>;
 export const metadata = {
   title: "Ernest Drobny | Personal Portfolio",
-  description: "I'm a web developer with 3 years of experience.",
+  description: "Web dev. 3 YoE. Ready to solve your business problems.",
+  image: "../public/thumbnail.png",
 };
 
 export default function RootLayout({

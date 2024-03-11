@@ -15,11 +15,11 @@ const inter = Inter({ subsets: ["latin"] });
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16" />
   <link rel="manifest" href="/site.webmanifest" />
+  <meta property="og:image" content="../public/thumbnail.png" />
 </Head>;
 export const metadata = {
-  title: "Ernest Drobny | Personal Portfolio",
+  title: "Ernest Drobny | Personal Website",
   description: "Web dev. 3 YoE. Ready to solve your business problems.",
-  image: "../public/thumbnail.png",
 };
 
 export default function RootLayout({

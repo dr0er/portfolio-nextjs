@@ -11,16 +11,22 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 <Head>
+  <title>Ernest Drobny | Personal Website</title>
+  <meta
+    name="description"
+    content="Web dev with 3 YoE. Ready to solve your business problems."
+  />
+  <meta property="og:image" content="/opengraph-image.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16" />
   <link rel="manifest" href="/site.webmanifest" />
-  <meta property="og:image" content="../public/thumbnail.png" />
 </Head>;
-export const metadata = {
-  title: "Ernest Drobny | Personal Website",
-  description: "Web dev with 3 YoE. Ready to solve your business problems.",
-};
+// export const metadata = {
+//   title: "Ernest Drobny | Personal Website",
+//   description: "Web dev with 3 YoE. Ready to solve your business problems.",
+//   image: "/opengraph-image.png",
+// };
 
 export default function RootLayout({
   children,

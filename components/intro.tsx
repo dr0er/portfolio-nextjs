@@ -71,7 +71,8 @@ export default function Intro() {
         pleasure in building outstanding websites and apps that simply perform.
         <br />
         My focus lies in honing {""}
-        <span className="text-red-500 font-bold">
+        <br />
+        <span className="text-red-600 font-bold">
           <Typewriter
             words={["React", "Next.js", "Node.js", "JavaScript", "Typescript"]}
             loop={false}
@@ -95,7 +96,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 mr-2 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-[12.5px] mr-2 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:bg-red-700"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());

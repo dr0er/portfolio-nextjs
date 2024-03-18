@@ -10,23 +10,55 @@ import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
-<Head>
-  <title>Ernest Drobny | Personal Website</title>
-  <meta
-    name="description"
-    content="Web dev with 3 YoE. Ready to solve your business problems."
-  />
+{
+  /* <Head>
   <meta property="og:image" content="/opengraph-image.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16" />
   <link rel="manifest" href="/site.webmanifest" />
 </Head>;
-// export const metadata = {
-//   title: "Ernest Drobny | Personal Website",
-//   description: "Web dev with 3 YoE. Ready to solve your business problems.",
-//   image: "/opengraph-image.png",
-// };
+export const metadata = {
+  title: "E. Drobny | Personal Website",
+  description: "Web dev with 3 YoE. Ready to solve your business problems.",
+  openGraph: {
+    images: "/og-image.png",
+  },
+}; */
+}
+
+export const metadata = {
+  title: "E. Drobny | Personal Website",
+  description: "Web dev with 3 YoE. Ready to solve your business problems.",
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/icon.png" },
+      new URL("/icon.png", "https://example.com"),
+      { url: "/icon-dark.png", media: "(prefers-color-scheme: dark)" },
+    ],
+    shortcut: ["/shortcut-icon.png"],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180" },
+      { url: "/apple-icon-x3.png", sizes: "180x180", type: "image/png" },
+      {
+        rel: "apple-touch-icon-precomposed",
+        url: "/apple-touch-icon-precomposed.png",
+      },
+    ],
+    other: [
+      // You can add more metadata here if needed
+    ],
+  },
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
+  links: [
+    { rel: "manifest", href: "/site.webmanifest" },
+    // You can add more link tags here if needed
+  ],
+};
 
 export default function RootLayout({
   children,

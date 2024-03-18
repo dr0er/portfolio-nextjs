@@ -29,7 +29,7 @@ export const metadata = {
 
 export const metadata = {
   title: "E. Drobny | Personal Website",
-  description: "Web dev with 3 YoE. Ready to solve your business problems.",
+  description: "Web developer ready to solve your business problems.",
   icons: {
     icon: [
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },

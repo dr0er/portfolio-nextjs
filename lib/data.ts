@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "HearMe PWA",
     description:
-      "App for anonymous therapy sessions. It has features including video calls, chats, webinars and much more. I took a part building it as a full-stack developer.",
+      "Application for anonymous therapy sessions that has features including video calls, chats, webinars and much more. I took a part building it as a full-stack developer.",
     tags: ["React", "Typescript", "Node.js", "PostgreSQL", "GraphQL"],
     imageUrl: hearme,
     demoLink: "https://hearme.pl",

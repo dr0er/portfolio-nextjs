@@ -8,7 +8,7 @@ import {
 import { IoLogoNodejs } from "react-icons/io5";
 import gymComp from "@/public/gymComp.png";
 import hearme from "@/public/hearme.png";
-import pizza from "@/public/pizza.png";
+import campsite from "@/public/campsite.png";
 
 export const links = [
   {
@@ -78,12 +78,12 @@ export const projectsData = [
     demoLink: "https://hearme.pl",
   },
   {
-    title: "Pizza Heaven",
+    title: "Campsite",
     description:
-      "Layout of a pizza restaurant website with a menu and ordering system.",
-    tags: ["React", "JavaScript", "Styled Components", "CSS"],
-    imageUrl: pizza,
-    demoLink: "https://dropizza.vercel.app/",
+      "Production-ready frontend layer of a camping website, that helps users to find and book their dream sheltering ground.",
+    tags: ["Next.js", "Typescript", "Tailwind CSS"],
+    imageUrl: campsite,
+    demoLink: "https://camping-layer.vercel.app/",
   },
   {
     title: "Exercise Compendium",

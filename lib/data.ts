@@ -9,6 +9,7 @@ import { IoLogoNodejs } from "react-icons/io5";
 import gymComp from "@/public/gymComp.png";
 import hearme from "@/public/hearme.png";
 import campsite from "@/public/campsite.png";
+import sweatmeat from "@/public/sweetmeat.png";
 
 export const links = [
   {
@@ -92,6 +93,14 @@ export const projectsData = [
     tags: ["React", "JavaScript", "CSS", "Material UI", "REST API"],
     imageUrl: gymComp,
     demoLink: "https://gym-exercise-compendium.vercel.app/",
+  },
+  {
+    title: "Sweetmeats",
+    description:
+      "Well designed frontend layer of an exclusive bakery website. Our online service users can browse and purchase unique, local goodies.",
+    tags: ["React", "Typescript", "CSS"],
+    imageUrl: sweatmeat,
+    demoLink: "https://sweetmeat.vercel.app/",
   },
 ] as const;
 

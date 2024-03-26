@@ -81,7 +81,7 @@ export const projectsData = [
   {
     title: "Campsite",
     description:
-      "Production-ready frontend layer of a camping website, that helps users to find and book their dream sheltering ground.",
+      "Production-ready, fully responsive frontend layer of a camping website, that helps users to find and book their dream sheltering ground.",
     tags: ["Next.js", "Typescript", "Tailwind CSS"],
     imageUrl: campsite,
     demoLink: "https://camping-layer.vercel.app/",
@@ -97,7 +97,7 @@ export const projectsData = [
   {
     title: "Sweetmeats",
     description:
-      "Well designed frontend layer of an exclusive bakery website. Our online service users can browse and purchase unique, local goodies.",
+      "Well designed, fully responsive frontend layer of an exclusive bakery website. Our online service users can browse and purchase unique, local goodies.",
     tags: ["React", "Typescript", "CSS"],
     imageUrl: sweatmeat,
     demoLink: "https://sweetmeat.vercel.app/",

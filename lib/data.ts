@@ -6,10 +6,10 @@ import {
   TbCpu,
 } from "react-icons/tb";
 import { IoLogoNodejs } from "react-icons/io5";
-import gymComp from "@/public/gymComp.png";
 import hearme from "@/public/hearme.png";
 import campsite from "@/public/campsite.png";
 import sweatmeat from "@/public/sweetmeat.png";
+import todo from "@/public/todo.png";
 
 export const links = [
   {
@@ -71,7 +71,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "HearMe PWA",
+    title: "HearMe PWA 🦄",
     description:
       "Application for anonymous therapy sessions that has features including video calls, chats, webinars and much more. I took a part building it as a full-stack developer.",
     tags: ["React", "Typescript", "Node.js", "PostgreSQL", "GraphQL"],
@@ -79,7 +79,7 @@ export const projectsData = [
     demoLink: "https://hearme.pl",
   },
   {
-    title: "Campsite",
+    title: "Campsite 🏕️",
     description:
       "Production-ready, fully responsive frontend layer of a camping website, that helps users to find and book their dream sheltering ground.",
     tags: ["Next.js", "Typescript", "Tailwind CSS"],
@@ -87,18 +87,18 @@ export const projectsData = [
     demoLink: "https://camping-layer.vercel.app/",
   },
   {
-    title: "Exercise Compendium",
+    title: "Taskerino 📝",
     description:
-      "Innovative application designed to empower users in searching for exercises across all muscle groups, providing comprehensive guidance.",
-    tags: ["React", "JavaScript", "CSS", "Material UI", "REST API"],
-    imageUrl: gymComp,
-    demoLink: "https://gym-exercise-compendium.vercel.app/",
+      "Mobile-first application designed to empower users in task tracking, providing storage, mode switching and RGB theme adjustment.",
+    tags: ["React", "JavaScript", "SCSS"],
+    imageUrl: todo,
+    demoLink: "https://taskerino.vercel.app/",
   },
   {
-    title: "Sweetmeats",
+    title: "Sweetmeats 🍪",
     description:
       "Well designed, fully responsive frontend layer of an exclusive bakery website. Our online service users can browse and purchase unique, local goodies.",
-    tags: ["React", "Typescript", "CSS"],
+    tags: ["React", "Typescript", "SCSS"],
     imageUrl: sweatmeat,
     demoLink: "https://sweetmeat.vercel.app/",
   },

@@ -6,26 +6,8 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
-
-{
-  /* <Head>
-  <meta property="og:image" content="/opengraph-image.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16" />
-  <link rel="manifest" href="/site.webmanifest" />
-</Head>;
-export const metadata = {
-  title: "E. Drobny | Personal Website",
-  description: "Web dev with 3 YoE. Ready to solve your business problems.",
-  openGraph: {
-    images: "/og-image.png",
-  },
-}; */
-}
 
 export const metadata = {
   title: "E. Drobny | Personal Website",
@@ -43,17 +25,11 @@ export const metadata = {
         url: "/apple-touch-icon-precomposed.png",
       },
     ],
-    other: [
-      // You can add more metadata here if needed
-    ],
   },
   openGraph: {
     images: "/opengraph-image.png",
   },
-  links: [
-    { rel: "manifest", href: "/site.webmanifest" },
-    // You can add more link tags here if needed
-  ],
+  links: [{ rel: "manifest", href: "/site.webmanifest" }],
 };
 
 export default function RootLayout({
@@ -64,6 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
+        suppressHydrationWarning={true}
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
         <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>

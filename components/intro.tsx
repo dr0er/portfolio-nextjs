@@ -10,7 +10,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { Typewriter } from "react-simple-typewriter";
-import portrait from "@/public/zKluskim.jpeg";
+import portrait from "@/public/dogpic.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);

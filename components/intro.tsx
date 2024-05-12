@@ -10,8 +10,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { Typewriter } from "react-simple-typewriter";
-import portrait from "@/public/zKluskimpng.png";
-``;
+import portrait from "@/public/zKluskim.JPEG";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -36,11 +35,11 @@ export default function Intro() {
             <Image
               src={portrait}
               alt="Ernest's portrait"
-              width="192"
-              height="192"
-              quality="95"
+              width="196"
+              height="196"
+              quality="65"
               priority={true}
-              className="h-48 w-48 rounded-full object-cover border-[0.35rem] border-red-200 shadow-xl"
+              className="h-48 rounded-full object-cover border-[0.35rem] border-red-200 shadow-xl"
             />
           </motion.div>
 

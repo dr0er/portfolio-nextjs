@@ -64,10 +64,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Ernest Drobny - </span> a{" "}
-        <span className="font-bold">web developer</span> with (nearly){" "}
-        <span className="font-bold">3 years</span> of experience. <br /> I take
-        pleasure in building outstanding websites and apps that simply perform.
+        <span className="font-bold">Ernest Drobny - </span> an experienced{" "}
+        <br />
+        <span className="font-bold sm:underline sm:decoration-red-600 sm:decoration-4 sm:decoration-wavy sm:underline-offset-8 no-underline">
+          fullstack developer. <br />
+        </span>
+        I take pleasure in building outstanding websites and apps that simply
+        perform.
         <br />
         My focus lies in honing {""}
         <br />

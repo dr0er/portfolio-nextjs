@@ -9,7 +9,7 @@ import { IoLogoNodejs } from "react-icons/io5";
 import hearme from "@/public/hearme.png";
 import campsite from "@/public/campsite.png";
 import sweatmeat from "@/public/sweetmeat.png";
-import todo from "@/public/todo.png";
+import gymComp from "@/public/gymComp.png";
 
 export const links = [
   {
@@ -87,12 +87,12 @@ export const projectsData = [
     demoLink: "https://camping-layer.vercel.app/",
   },
   {
-    title: "Taskerino 📝",
+    title: "Gym Compendium 🏋🏻‍♂️",
     description:
-      "Mobile-first application designed to empower users in task tracking, providing storage, mode switching and RGB theme adjustment.",
-    tags: ["React", "JavaScript", "SCSS"],
-    imageUrl: todo,
-    demoLink: "https://taskerino.vercel.app/",
+      "Mobile-first application designed to empower users in exercise search, workout tutorials and creating own training plans.",
+    tags: ["React", "JavaScript", "MUI"],
+    imageUrl: gymComp,
+    demoLink: "https://gym-exercise-compendium.vercel.app/",
   },
   {
     title: "Sweetmeats 🍪",

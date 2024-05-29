@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Front-end Developer (freelance)",
     location: "Remote",
     description:
-      "For several months I served as a contractor, successfully participating in multiple projects and collaborating with professionals across the US and EU. I adeptly utilized a robust tech stack encompassing React, Next.js, both JavaScript and Typescript while creating outstanding layouts using Tailwind CSS and Figma in the execution of these assignments.",
+      "For several months I served as a contractor, successfully participating in multiple projects and collaborating with professionals across the US and EU. I adeptly utilized a robust tech stack encompassing React, Next.js, both JavaScript and Typescript while creating outstanding layouts using Tailwind CSS and Figma in the execution of given assignments.",
     icon: React.createElement(TbBrandTypescript),
     date: "08/2023 - 03/2024",
   },
@@ -106,12 +106,12 @@ export const projectsData = [
 
 export const skillsData = [
   "Semantic HTML",
-  "CSS (Sass/Tailwind)",
+  "Various forms of CSS",
   "JavaScript",
   "TypeScript",
-  "React (with various libraries)",
-  "Redux",
+  "React.js and its ecosystem",
   "Next.js",
+  "State managers (eg. Redux)",
   "Node.js (Express)",
   "NoSQL databases (MongoDB)",
   "SQL databases (PostgreSQL)",

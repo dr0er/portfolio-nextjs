@@ -37,21 +37,9 @@ export default function About() {
         <br />
         <p>
           {" "}
-          Beyond the coding realm, my life is a mosaic of diverse interests 🤩.
-          Delving into the intricacies of psychology through reading is a
-          constant joy, providing a fascinating complement to my technical
-          pursuits 📚. When not immersed in lines of code, I'm out exploring on
-          my gravel bike 🚵🏻, seeking the thrill of new adventures. On a digital
-          quest, you'll find me engrossed in MMORPG and hack-n-slash games,
-          where I conquer virtual universes 🎮.
-        </p>
-        <br />
-        <p>
-          {" "}
           At home, I wear the hat of a dog lover 🐶💖, dedicating time to train
-          my lovely Jack Russell <s>Terrier</s> Terror, named Kluseczka.
-          Additionally, I find joy in the meticulous art of building, bringing{" "}
-          <i>LEGO</i> creations to life.
+          my lovely Jack Russell <s>Terrier</s> Terror, named Klusia.
+          Additionally, I find joy in the meticulous art of working out 🏋🏻‍♂️.
         </p>
       </article>
     </motion.section>

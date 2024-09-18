@@ -49,7 +49,7 @@ export const experiencesData = [
     description:
       "For several months I served as a contractor, successfully participating in multiple projects and collaborating with professionals across the US and EU. I adeptly utilized a robust tech stack encompassing React, Next.js, both JavaScript and Typescript while creating outstanding layouts using Tailwind CSS and Figma in the execution of given assignments.",
     icon: React.createElement(TbBrandTypescript),
-    date: "08/2023 - 03/2024",
+    date: "08/2023 - 04/2024",
   },
   {
     title: "Full-stack Developer (HearMe & Emplomind UK)",

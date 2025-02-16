@@ -17,14 +17,14 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>Welcome to my digital corner! 🙋🏻‍♂️🌍</SectionHeading>
+      <SectionHeading>Welcome to my digital corner! 🙋🏻‍♂️</SectionHeading>
       <article className="mb-3">
         <p>
           I'm a technology enthusiast with a{" "}
           <b>Bachelor of Engineering degree </b>
-          in Computer Science 🧑🏻‍💻. Currently, I'm immersed in the dynamic world
-          of IT as I pursue my <b>Master's degree</b> at the{" "}
-          <i>Polish-Japanese Academy of Information Technology 🎓.</i>
+          in Computer Science 👾. Currently, I'm immersed in the dynamic world
+          of IT as I pursue my <b>Master's degree</b> at the Polish-Japanese
+          Academy of Information Technology 🎓.
         </p>
         <br />
         <p>
@@ -32,7 +32,7 @@ export default function About() {
           <b> Front-End Development 🎨</b>, pouring my creativity into crafting
           seamless user experiences. However, my journey doesn't stop there as
           I'm eagerly gearing up to transition into a{" "}
-          <b>Full-Stack Developer ⚒️</b> in the following year.
+          <b>Full-Stack Developer ⚒️</b> in the upcoming year.
         </p>
         <br />
         <p>

@@ -6,6 +6,7 @@ import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import { isMobile } from "react-device-detect";
 
 export default function Home() {
   return (
@@ -13,9 +14,9 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
-      <Skills />
-      <Projects />
+      {!isMobile && <Skills />}
       <Experience />
+      <Projects />
       <Education />
       <Contact />
     </main>

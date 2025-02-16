@@ -67,7 +67,7 @@ export default function Intro() {
         <span className="font-bold text-4xl sm:text-6xl">Ernest Drobny </span>{" "}
         <br />
         <span className="font-semibold">
-          Seasoned frontend developer. <br />
+          Front-end Software Engineer. <br />
         </span>
         I take pleasure in building outstanding websites and apps that simply
         perform.
@@ -76,7 +76,14 @@ export default function Intro() {
         <br />
         <span className="text-red-600 font-bold">
           <Typewriter
-            words={["React", "Next.js", "Node.js", "JavaScript", "Typescript"]}
+            words={[
+              "React",
+              "Next.js",
+              "Node.js",
+              "JavaScript",
+              "Typescript",
+              "interpersonal",
+            ]}
             loop={false}
             cursor
             cursorStyle="|"

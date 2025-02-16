@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "Front-end Software Engineer @ Allegro",
     location: "Warsaw, Poland",
     description:
-      "I currently work as a Frontend Software Engineer in the largest company on the e-commerce market in Central and Eastern Europe. My tasks mainly revolve around creating the requirements architecture and implementing new functionalities of the Allegro.pl web application, in the Advertisement section. What I love most about this job is the opportunity to use both technical and soft skills on daily basis.",
+      "I currently work as a Front-end Software Engineer in the largest company on the e-commerce market in Central and Eastern Europe. My tasks mainly revolve around creating the requirements architecture and implementing new functionalities of the Allegro web app. What I love most about this job is the opportunity to use both technical and soft skills on daily basis.",
     icon: React.createElement(TbBrandReact),
     date: "09/2024 - PRESENT",
   },

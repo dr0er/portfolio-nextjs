@@ -153,7 +153,7 @@ export const educationData = [
     description:
       "In pursuit of advancing my professional expertise, I have embarked on a journey of master's studies. During this period, I am dedicated to cultivating a multifaceted skill set encompassing project management, software testing, database design and implementation, and proficiency in conflict resolution. Additionally, I am immersing myself in the principles of Scrum culture to further enrich my knowledge and contribute effectively to complex project environments.",
     icon: React.createElement(TbDatabaseHeart),
-    date: "10/2023 - PRESENT",
+    date: "10/2023 - 07/2025",
   },
   {
     title: "Bachelor of Engineering in Computer Science, Software Engineering",

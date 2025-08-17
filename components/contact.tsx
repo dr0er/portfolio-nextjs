@@ -55,21 +55,38 @@ export default function Contact() {
           toast.success("Email sent successfully!");
         }}
       >
+        <label htmlFor="senderEmail" className="sr-only">
+          Your email address
+        </label>
         <input
+          id="senderEmail"
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="senderEmail"
           type="email"
           required
           maxLength={500}
           placeholder="Your email"
+          aria-describedby="email-description"
         />
+        <span id="email-description" className="sr-only">
+          Enter your email address so we can respond to your message
+        </span>
+
+        <label htmlFor="message" className="sr-only">
+          Your message
+        </label>
         <textarea
+          id="message"
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
           placeholder="Your message"
           required
           maxLength={5000}
+          aria-describedby="message-description"
         />
+        <span id="message-description" className="sr-only">
+          Enter your message. Maximum 5000 characters.
+        </span>
         <SubmitBtn />
       </form>
     </motion.section>

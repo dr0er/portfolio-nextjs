@@ -39,6 +39,7 @@ export default function Project({
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
+            aria-label={`View ${title} project demo (opens in new tab)`}
           >
             See online
           </a>
@@ -59,7 +60,7 @@ export default function Project({
 
         <Image
           src={imageUrl}
-          alt="Project I worked on"
+          alt={`Screenshot of ${title} project showing the user interface and design`}
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 

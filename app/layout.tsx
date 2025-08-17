@@ -48,8 +48,14 @@ export default function RootLayout({
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
+            <a
+              href="#main-content"
+              className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded-md z-[9999] focus:z-[9999]"
+            >
+              Skip to main content
+            </a>
             <Header />
-            {children}
+            <main id="main-content">{children}</main>
             <Footer />
 
             <Toaster position="top-right" />

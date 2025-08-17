@@ -119,6 +119,8 @@ export default function Intro() {
           className="group bg-white px-7 py-3 mr-2 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 hover:bg-red-200"
           href="/CV.pdf"
           download
+          aria-label="Download Ernest Drobny's CV (PDF file)"
+          title="Download Ernest Drobny's CV (PDF file)"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -128,6 +130,8 @@ export default function Intro() {
             className="bg-white p-5 mr-2 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 hover:bg-red-200"
             href="https://www.linkedin.com/in/ernest-drobny/"
             target="_blank"
+            aria-label="Visit Ernest's LinkedIn profile"
+            title="Visit Ernest's LinkedIn profile"
           >
             <FaLinkedinIn />
           </a>
@@ -136,6 +140,8 @@ export default function Intro() {
             className="bg-white py-[8px] px-[18px] text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 hover:bg-red-200"
             href="https://github.com/dr0er"
             target="_blank"
+            aria-label="Visit Ernest's GitHub profile"
+            title="Visit Ernest's GitHub profile"
           >
             <FaGithub />
           </a>
